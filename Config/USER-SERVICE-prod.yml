@@ -1,1 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/usersdb_prod
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+   
 
